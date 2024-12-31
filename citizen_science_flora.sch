@@ -6698,6 +6698,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="GND24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C29" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402T-16V-10%-X7R-WE" package3d_urn="urn:adsk.eagle:package:41385069/1" value="0.1uF"/>
+<part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -7477,11 +7478,61 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <label x="147.32" y="137.16" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
+<net name="DAT3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO13"/>
+<wire x1="139.7" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
+<label x="147.32" y="116.84" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="SD_CLK" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO14"/>
+<wire x1="139.7" y1="114.3" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
+<label x="147.32" y="114.3" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="CMD" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO15"/>
+<wire x1="139.7" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
+<label x="147.32" y="111.76" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="DAT0" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO12"/>
+<wire x1="139.7" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<label x="147.32" y="119.38" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="DAT1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO11"/>
+<wire x1="139.7" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="91"/>
+<label x="147.32" y="121.92" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="DAT2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO10"/>
+<wire x1="139.7" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
+<label x="147.32" y="124.46" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="SWITCH" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO9"/>
+<wire x1="139.7" y1="127" x2="147.32" y2="127" width="0.1524" layer="91"/>
+<label x="147.32" y="127" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
 <text x="231.14" y="162.56" size="2.54" layer="97" font="vector" ratio="20">MicroSD Card</text>
+<text x="38.1" y="172.72" size="2.54" layer="97" font="vector" ratio="20">ESP32 Co-Processor</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
@@ -7497,8 +7548,8 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <instance part="GND13" gate="1" x="76.2" y="106.68" smashed="yes">
 <attribute name="VALUE" x="76.2" y="106.426" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="76.2" y="160.02" smashed="yes">
-<attribute name="VALUE" x="76.2" y="162.814" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="76.2" y="167.64" smashed="yes">
+<attribute name="VALUE" x="76.2" y="170.434" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
 </instance>
 <instance part="C20" gate="G$1" x="83.82" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.28" y="154.305" size="1.27" layer="95" font="vector" ratio="20" rot="R180"/>
@@ -7580,8 +7631,8 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <attribute name="NAME" x="231.14" y="155.194" size="1.27" layer="95" font="vector" ratio="20"/>
 <attribute name="VALUE" x="231.14" y="129.286" size="1.27" layer="96" font="vector" ratio="20" align="top-left"/>
 </instance>
-<instance part="GND23" gate="1" x="259.08" y="121.92" smashed="yes">
-<attribute name="VALUE" x="259.08" y="121.666" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+<instance part="GND23" gate="1" x="260.096" y="121.92" smashed="yes">
+<attribute name="VALUE" x="260.096" y="121.666" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="259.08" y="167.64" smashed="yes">
 <attribute name="VALUE" x="259.08" y="170.434" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
@@ -7589,6 +7640,10 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <instance part="C28" gate="G$1" x="263.652" y="144.018" smashed="yes">
 <attribute name="NAME" x="263.525" y="146.304" size="1.27" layer="95" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="263.271" y="139.954" size="1.27" layer="96" font="vector" ratio="20" rot="R90"/>
+</instance>
+<instance part="R13" gate="G$1" x="96.52" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="94.234" y="164.338" size="1.27" layer="95" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="94.488" y="155.702" size="1.27" layer="96" font="vector" ratio="20" rot="R180" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -7660,13 +7715,13 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="259.08" y1="124.46" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="132.08" x2="259.08" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="142.24" x2="246.38" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="260.096" y1="124.46" x2="260.096" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="260.096" y1="132.08" x2="260.096" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="260.096" y1="142.24" x2="246.38" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="263.652" y1="141.478" x2="263.652" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="263.652" y1="132.08" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
-<junction x="259.08" y="132.08"/>
+<wire x1="263.652" y1="132.08" x2="260.096" y2="132.08" width="0.1524" layer="91"/>
+<junction x="260.096" y="132.08"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -7676,9 +7731,14 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <wire x1="71.12" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="149.86" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="152.4" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="152.4" x2="76.2" y2="166.116" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="166.116" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <junction x="76.2" y="152.4"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="165.1" x2="96.52" y2="166.116" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="166.116" x2="76.2" y2="166.116" width="0.1524" layer="91"/>
+<junction x="76.2" y="166.116"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="2"/>
@@ -7796,6 +7856,112 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <pinref part="U3" gate="G$1" pin="TXD0"/>
 <wire x1="35.56" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
 <label x="27.94" y="119.38" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SWITCH" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SWITCH"/>
+<wire x1="246.38" y1="132.08" x2="251.46" y2="132.08" width="0.1524" layer="91"/>
+<label x="251.46" y="132.08" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="SD_CLK" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CLK"/>
+<wire x1="246.38" y1="147.32" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
+<label x="248.92" y="147.32" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="DAT0" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DAT0"/>
+<wire x1="246.38" y1="149.86" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
+<label x="248.92" y="149.86" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="DAT1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DAT1"/>
+<wire x1="246.38" y1="152.4" x2="248.92" y2="152.4" width="0.1524" layer="91"/>
+<label x="248.92" y="152.4" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="DAT2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DAT2"/>
+<wire x1="246.38" y1="134.62" x2="251.46" y2="134.62" width="0.1524" layer="91"/>
+<label x="251.46" y="134.62" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="DAT3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CD/DAT3"/>
+<wire x1="246.38" y1="137.16" x2="251.46" y2="137.16" width="0.1524" layer="91"/>
+<label x="251.46" y="137.16" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="CMD" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CMD"/>
+<wire x1="246.38" y1="139.7" x2="251.46" y2="139.7" width="0.1524" layer="91"/>
+<label x="251.46" y="139.7" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_HANDSHAKE" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IO3"/>
+<wire x1="35.56" y1="134.62" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
+<label x="27.94" y="134.62" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_CS" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IO10"/>
+<wire x1="71.12" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
+<label x="76.2" y="134.62" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_MOSI" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IO7"/>
+<wire x1="71.12" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
+<label x="76.2" y="142.24" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_MISO" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IO2"/>
+<wire x1="35.56" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
+<label x="27.94" y="137.16" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_SCK" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IO6"/>
+<wire x1="35.56" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
+<label x="27.94" y="127" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!ESP32_RST" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="EN"/>
+<wire x1="35.56" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
+<label x="27.94" y="147.32" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IO8"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="139.7" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="139.7" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!ESP32_BOOT" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IO9"/>
+<wire x1="71.12" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<label x="76.2" y="137.16" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
 </nets>
