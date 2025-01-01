@@ -7645,8 +7645,8 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C25" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402T-16V-10%-X7R-WE" package3d_urn="urn:adsk.eagle:package:41385069/1" value="0.1uF"/>
-<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="2.2K"/>
-<part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="2.2K"/>
+<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="DNF"/>
+<part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="10K"/>
 <part name="U5" library="BME690" deviceset="BME690" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -9189,6 +9189,7 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <text x="35.56" y="152.4" size="2.54" layer="97" font="vector" ratio="20">Qwiic/I2C</text>
 <text x="165.1" y="60.96" size="1.778" layer="97" font="vector" ratio="20">Slave Address: 0x43</text>
 <text x="149.86" y="154.94" size="2.54" layer="97" font="vector" ratio="20">Lightning sensor</text>
+<text x="33.02" y="43.18" size="2.54" layer="97" font="vector" ratio="20">I2C Address: 0x76</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -9358,18 +9359,10 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <junction x="187.96" y="107.696"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="ADD0"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="142.24" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="124.46" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="ADD1"/>
-<wire x1="134.62" y1="121.92" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
-<junction x="134.62" y="121.92"/>
 <pinref part="U9" gate="G$1" pin="EN_VREG"/>
 <wire x1="142.24" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="132.08" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
-<junction x="134.62" y="124.46"/>
+<wire x1="134.62" y1="132.08" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND28" gate="1" pin="GND"/>
@@ -9466,8 +9459,17 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <segment>
 <pinref part="U9" gate="G$1" pin="SI"/>
 <pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
-<wire x1="142.24" y1="129.54" x2="119.888" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="129.54" x2="119.888" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="119.888" y1="129.54" x2="119.888" y2="131.064" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="ADD0"/>
+<wire x1="142.24" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="124.46" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
+<junction x="137.16" y="129.54"/>
+<pinref part="U9" gate="G$1" pin="ADD1"/>
+<wire x1="142.24" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="121.92" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
+<junction x="137.16" y="124.46"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="VREG"/>
@@ -9572,6 +9574,10 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <sheet>
 <plain>
 <text x="119.38" y="167.64" size="2.54" layer="97" font="vector" ratio="20">I2C Isolator</text>
+<text x="71.12" y="88.9" size="2.54" layer="97" font="vector" ratio="20">Soil Sensor</text>
+<text x="193.04" y="86.36" size="2.54" layer="97" font="vector" ratio="20">Soil Temperature Sensor</text>
+<text x="193.04" y="35.56" size="2.54" layer="97" font="vector" ratio="20">I2C Address: 0x68</text>
+<text x="66.04" y="33.02" size="2.54" layer="97" font="vector" ratio="20">I2C Address: 0x65</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
@@ -9581,12 +9587,12 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <attribute name="DESIGNER" x="226.26" y="6.35" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="U$2" gate="G$1" x="81.28" y="60.96" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="180.34" y="60.96" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="208.28" y="58.42" smashed="yes"/>
 <instance part="GND-ISO2" gate="G$1" x="106.68" y="35.56" smashed="yes">
 <attribute name="VALUE" x="106.68" y="33.782" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
-<instance part="GND-ISO3" gate="G$1" x="208.28" y="35.56" smashed="yes">
-<attribute name="VALUE" x="208.28" y="33.782" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+<instance part="GND-ISO3" gate="G$1" x="236.22" y="33.02" smashed="yes">
+<attribute name="VALUE" x="236.22" y="31.242" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
 <instance part="U6" gate="G$1" x="132.08" y="124.46" smashed="yes">
 <attribute name="NAME" x="119.38" y="109.22" size="1.27" layer="95" font="vector" ratio="20"/>
@@ -9673,19 +9679,19 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <attribute name="NAME" x="34.29" y="57.658" size="1.27" layer="95" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="38.1" y="47.752" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
 </instance>
-<instance part="J5" gate="G$1" x="144.78" y="55.88" smashed="yes">
-<attribute name="NAME" x="140.97" y="56.896" size="1.27" layer="95" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="144.78" y="47.752" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
+<instance part="J5" gate="G$1" x="172.72" y="53.34" smashed="yes">
+<attribute name="NAME" x="168.91" y="54.356" size="1.27" layer="95" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="172.72" y="45.212" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
 </instance>
-<instance part="U$6" gate="G$1" x="142.24" y="81.28" smashed="yes">
-<attribute name="VALUE" x="143.764" y="84.836" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
+<instance part="U$6" gate="G$1" x="170.18" y="78.74" smashed="yes">
+<attribute name="VALUE" x="171.704" y="82.296" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
 </instance>
-<instance part="C41" gate="G$1" x="137.414" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="135.382" y="77.597" size="1.27" layer="95" font="vector" ratio="20" rot="R180"/>
-<attribute name="VALUE" x="141.478" y="77.597" size="1.27" layer="96" font="vector" ratio="20" rot="R180"/>
+<instance part="C41" gate="G$1" x="165.354" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="163.322" y="75.057" size="1.27" layer="95" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="169.418" y="75.057" size="1.27" layer="96" font="vector" ratio="20" rot="R180"/>
 </instance>
-<instance part="GND-ISO8" gate="G$1" x="129.54" y="68.58" smashed="yes">
-<attribute name="VALUE" x="129.54" y="66.802" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+<instance part="GND-ISO8" gate="G$1" x="157.48" y="66.04" smashed="yes">
+<attribute name="VALUE" x="157.48" y="64.262" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -9701,8 +9707,8 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <segment>
 <pinref part="GND-ISO3" gate="G$1" pin="GND-ISO"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="208.28" y1="38.1" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="35.56" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="48.26" x2="228.6" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="GNDISO"/>
@@ -9738,8 +9744,8 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <segment>
 <pinref part="GND-ISO8" gate="G$1" pin="GND-ISO"/>
 <pinref part="C41" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="71.12" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="76.2" x2="132.334" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="68.58" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="73.66" x2="160.274" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9851,8 +9857,12 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <segment>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
 <pinref part="U$6" gate="G$1" pin="VCC-ISO"/>
-<wire x1="157.48" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="60.96" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="58.42" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C41" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="73.66" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="167.894" y1="73.66" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
+<junction x="170.18" y="73.66"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -9883,6 +9893,11 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <wire x1="58.42" y1="71.12" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
 <label x="53.34" y="71.12" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="SDA"/>
+<wire x1="185.42" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
+<label x="180.34" y="68.58" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCL_ISO" class="0">
 <segment>
@@ -9898,6 +9913,11 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <pinref part="U$2" gate="G$1" pin="SCL"/>
 <wire x1="101.6" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
 <label x="106.68" y="60.96" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="SCL"/>
+<wire x1="228.6" y1="58.42" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
+<label x="236.22" y="58.42" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -9924,8 +9944,8 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <net name="INT_SOILTEMP_ISO" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="INT"/>
-<wire x1="200.66" y1="55.88" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
-<label x="208.28" y="55.88" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+<wire x1="228.6" y1="53.34" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
+<label x="236.22" y="53.34" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -9946,19 +9966,88 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
 <pinref part="U$3" gate="G$1" pin="PRB_GND"/>
-<wire x1="152.4" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="48.26" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="PRB"/>
-<wire x1="152.4" y1="55.88" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="53.34" x2="185.42" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,2,71.12,149.86,U3,3V3,3.3V,,,"/>
+<approved hash="104,2,63.5,78.74,J2,VBUS,N$11,,,"/>
+<approved hash="104,3,38.1,121.92,J3,1,GND,,,"/>
+<approved hash="104,3,38.1,124.46,J3,2,3.3V,,,"/>
+<approved hash="104,3,60.96,73.66,U5,VDDIO,3.3V,,,"/>
+<approved hash="104,3,60.96,71.12,U5,VDD,3.3V,,,"/>
+<approved hash="104,2,246.38,144.78,U$1,VDD,3.3V,,,"/>
+<approved hash="104,3,190.5,73.66,U7,VDD,3.3V,,,"/>
+<approved hash="104,3,190.5,66.04,U7,VSS,GND,,,"/>
+<approved hash="104,4,58.42,60.96,U$2,VCC,VCC-ISO,,,"/>
+<approved hash="104,4,101.6,50.8,U$2,GND,GND-ISO,,,"/>
+<approved hash="104,4,185.42,58.42,U$3,VCC,VCC-ISO,,,"/>
+<approved hash="104,4,228.6,48.26,U$3,GND,GND-ISO,,,"/>
+<approved hash="104,3,182.88,147.32,U9,VDD,3.3V,,,"/>
+<approved hash="104,3,182.88,144.78,U9,VREG,3.3V,,,"/>
+<approved hash="104,3,182.88,114.3,U9,EXP,GND,,,"/>
+<approved hash="208,1,78.74,160.02,3.3V,sup,,,,"/>
+<approved hash="208,1,25.908,139.7,3.3V,sup,,,,"/>
+<approved hash="208,1,206.248,99.06,3.3V,sup,,,,"/>
+<approved hash="208,1,262.128,165.1,3.3V,sup,,,,"/>
+<approved hash="208,1,198.12,168.656,3.3V,sup,,,,"/>
+<approved hash="208,1,84.328,55.88,3.3V,sup,,,,"/>
+<approved hash="208,2,76.2,165.1,3.3V,sup,,,,"/>
+<approved hash="208,2,172.72,78.74,3.3V,out,,,,"/>
+<approved hash="208,2,182.88,83.82,3.3V,sup,,,,"/>
+<approved hash="208,2,259.08,167.64,3.3V,sup,,,,"/>
+<approved hash="208,3,56.388,146.304,3.3V,sup,,,,"/>
+<approved hash="208,3,69.088,86.36,3.3V,sup,,,,"/>
+<approved hash="208,3,201.168,86.36,3.3V,sup,,,,"/>
+<approved hash="208,3,119.888,131.064,3.3V,sup,,,,"/>
+<approved hash="208,3,188.468,153.924,3.3V,sup,,,,"/>
+<approved hash="208,4,73.66,145.034,3.3V,sup,,,,"/>
+<approved hash="208,1,76.2,73.66,GND,sup,,,,"/>
+<approved hash="208,1,228.6,119.38,GND,sup,,,,"/>
+<approved hash="208,1,50.8,143.51,GND,sup,,,,"/>
+<approved hash="208,1,73.66,123.698,GND,sup,,,,"/>
+<approved hash="208,1,50.8,106.426,GND,sup,,,,"/>
+<approved hash="208,1,68.072,103.124,GND,sup,,,,"/>
+<approved hash="208,1,241.3,25.4,GND,sup,,,,"/>
+<approved hash="208,1,175.26,5.08,GND,sup,,,,"/>
+<approved hash="208,1,208.28,60.96,GND,sup,,,,"/>
+<approved hash="208,1,248.92,157.48,GND,sup,,,,"/>
+<approved hash="208,1,78.74,83.312,GND,sup,,,,"/>
+<approved hash="208,1,129.54,30.48,GND,sup,,,,"/>
+<approved hash="208,1,83.82,10.16,GND,sup,,,,"/>
+<approved hash="208,2,76.2,109.22,GND,sup,,,,"/>
+<approved hash="208,2,96.52,144.78,GND,sup,,,,"/>
+<approved hash="208,2,73.66,48.26,GND,sup,,,,"/>
+<approved hash="208,2,11.176,48.26,GND,sup,,,,"/>
+<approved hash="208,2,88.9,66.04,GND,sup,,,,"/>
+<approved hash="208,2,114.3,66.04,GND,sup,,,,"/>
+<approved hash="208,2,132.08,66.04,GND,sup,,,,"/>
+<approved hash="208,2,177.8,60.96,GND,sup,,,,"/>
+<approved hash="208,2,260.096,124.46,GND,sup,,,,"/>
+<approved hash="208,3,53.34,111.76,GND,sup,,,,"/>
+<approved hash="208,3,66.04,50.8,GND,sup,,,,"/>
+<approved hash="208,3,200.66,58.42,GND,sup,,,,"/>
+<approved hash="208,3,187.96,106.68,GND,sup,,,,"/>
+<approved hash="208,3,134.62,119.38,GND,sup,,,,"/>
+<approved hash="208,3,190.5,134.112,GND,sup,,,,"/>
+<approved hash="208,3,182.88,132.08,GND,out,,,,"/>
+<approved hash="208,3,201.168,144.78,GND,sup,,,,"/>
+<approved hash="208,3,111.76,134.62,GND,sup,,,,"/>
+<approved hash="208,4,106.68,106.68,GND,sup,,,,"/>
+<approved hash="208,4,81.28,132.08,GND,sup,,,,"/>
+<approved hash="208,4,60.96,139.7,GND,sup,,,,"/>
+<approved hash="113,3,33.655,126.67,J3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
