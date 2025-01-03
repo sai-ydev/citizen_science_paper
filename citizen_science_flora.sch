@@ -8212,11 +8212,11 @@ Switches electronic signals</description>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J1" library="BM03B-SRSS-TB_LF__SN_" deviceset="BM03B-SRSS-TB(LF)(SN)" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="RESET" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/2"/>
-<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="1K"/>
+<part name="RESET" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/2" override_package3d_urn="urn:adsk.eagle:package:46141636/2" override_package_urn="urn:adsk.eagle:footprint:40113/2"/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141748/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="1K"/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="27OHM" device="" package3d_urn="urn:adsk.eagle:package:41389023/1" value="27"/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="27OHM" device="" package3d_urn="urn:adsk.eagle:package:41389023/1" value="27"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="27OHM" device="" package3d_urn="urn:adsk.eagle:package:41389023/1" override_package3d_urn="urn:adsk.eagle:package:46141749/2" override_package_urn="urn:adsk.eagle:footprint:41389011/1" value="27"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="27OHM" device="" package3d_urn="urn:adsk.eagle:package:41389023/1" override_package3d_urn="urn:adsk.eagle:package:46141750/2" override_package_urn="urn:adsk.eagle:footprint:41389011/1" value="27"/>
 <part name="U2" library="RP2350A" deviceset="APS6404L-3SQR-ZR" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -8228,14 +8228,14 @@ Switches electronic signals</description>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C18" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="15PF" device="-0402-50V-5%" package3d_urn="urn:adsk.eagle:package:41385089/1" value="15pF"/>
 <part name="C19" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="15PF" device="-0402-50V-5%" package3d_urn="urn:adsk.eagle:package:41385089/1" value="15pF"/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" value=" "/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141752/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value=" "/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="1K"/>
-<part name="!BOOT" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/2"/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141638/3" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="1K"/>
+<part name="!BOOT" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/2" override_package3d_urn="urn:adsk.eagle:package:46141635/2" override_package_urn="urn:adsk.eagle:footprint:40113/2"/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="10k"/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="1K"/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141751/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="1K"/>
 <part name="U3" library="ESP32-C3-MINI-1-N4" deviceset="ESP32-C3-MINI-1-N4" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -8252,15 +8252,15 @@ Switches electronic signals</description>
 <part name="C22" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF"/>
 <part name="GND18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
-<part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="USB" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="V_USB"/>
+<part name="GND" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="C23" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0402T-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385069/1" value="10uF"/>
 <part name="U4" library="MIC5504-3.3YM5-T5" deviceset="MIC5504-3.3YM5-T5" device=""/>
 <part name="C24" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0402T-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385069/1" value="10uF"/>
 <part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="3.3V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:2652347" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:2652537/1"/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -8289,11 +8289,11 @@ Switches electronic signals</description>
 <part name="U8" library="SFH6325-X017T" deviceset="SFH6325-X017T" device="EL0631"/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="1K"/>
-<part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="1K"/>
+<part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141755/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="1K"/>
+<part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141756/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="1K"/>
 <part name="GND-ISO1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
-<part name="R16" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0402-TIGHT-1/16W-1%" package3d_urn="urn:adsk.eagle:package:41389023/1" value="100"/>
-<part name="R17" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0402-TIGHT-1/16W-1%" package3d_urn="urn:adsk.eagle:package:41389023/1" value="100"/>
+<part name="R16" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0402-TIGHT-1/16W-1%" package3d_urn="urn:adsk.eagle:package:41389023/1" override_package3d_urn="urn:adsk.eagle:package:46141753/2" override_package_urn="urn:adsk.eagle:footprint:41389011/1" value="100"/>
+<part name="R17" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0402-TIGHT-1/16W-1%" package3d_urn="urn:adsk.eagle:package:41389023/1" override_package3d_urn="urn:adsk.eagle:package:46141754/2" override_package_urn="urn:adsk.eagle:footprint:41389011/1" value="100"/>
 <part name="GND-ISO2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
@@ -8342,6 +8342,8 @@ Switches electronic signals</description>
 <part name="R23" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-0402-1/16W-5%" package3d_urn="urn:adsk.eagle:package:39657/2" value="1M"/>
 <part name="R24" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-0402-1/16W-5%" package3d_urn="urn:adsk.eagle:package:39657/2" value="1M"/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="C42" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402T-16V-10%-X7R-WE" package3d_urn="urn:adsk.eagle:package:41385069/1" value="0.1uF"/>
+<part name="GND35" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8582,6 +8584,13 @@ Switches electronic signals</description>
 <attribute name="NAME" x="36.068" y="39.37" size="1.27" layer="95" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="27.178" y="38.1" size="1.27" layer="96" font="vector" ratio="20" rot="R180" align="top-center"/>
 </instance>
+<instance part="C42" gate="G$1" x="78.486" y="50.292" smashed="yes" rot="R90">
+<attribute name="NAME" x="76.2" y="51.943" size="1.27" layer="95" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="83.058" y="51.943" size="1.27" layer="96" font="vector" ratio="20" rot="R180"/>
+</instance>
+<instance part="GND35" gate="1" x="71.12" y="43.18" smashed="yes">
+<attribute name="VALUE" x="71.12" y="42.926" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8730,6 +8739,12 @@ Switches electronic signals</description>
 <wire x1="83.82" y1="10.16" x2="83.82" y2="19.812" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="19.812" x2="74.93" y2="19.812" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND35" gate="1" pin="GND"/>
+<pinref part="C42" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="45.72" x2="71.12" y2="50.292" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="50.292" x2="73.406" y2="50.292" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -8838,12 +8853,15 @@ Switches electronic signals</description>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="84.328" y1="50.292" x2="84.328" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="48.26" x2="88.9" y2="50.292" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="50.292" x2="84.328" y2="50.292" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="50.292" x2="84.582" y2="50.292" width="0.1524" layer="91"/>
 <junction x="84.328" y="50.292"/>
 <pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="84.582" y1="50.292" x2="84.328" y2="50.292" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="48.26" x2="91.44" y2="50.292" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="50.292" x2="88.9" y2="50.292" width="0.1524" layer="91"/>
 <junction x="88.9" y="50.292"/>
+<pinref part="C42" gate="G$1" pin="2"/>
+<wire x1="81.026" y1="50.292" x2="84.328" y2="50.292" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9427,10 +9445,10 @@ Switches electronic signals</description>
 <instance part="SUPPLY8" gate="G$1" x="121.92" y="86.36" smashed="yes">
 <attribute name="VALUE" x="121.92" y="89.154" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
 </instance>
-<instance part="TP1" gate="G$1" x="118.364" y="85.852" smashed="yes">
+<instance part="USB" gate="G$1" x="118.364" y="85.852" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" x="119.634" y="84.582" size="1.778" layer="97"/>
 </instance>
-<instance part="TP2" gate="G$1" x="119.38" y="67.31" smashed="yes" rot="R270">
+<instance part="GND" gate="G$1" x="119.38" y="67.31" smashed="yes" rot="R270">
 <attribute name="TP_SIGNAL_NAME" x="118.11" y="66.04" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="C23" gate="G$1" x="132.08" y="73.66" smashed="yes" rot="R180">
@@ -9454,7 +9472,7 @@ Switches electronic signals</description>
 <instance part="SUPPLY9" gate="G$1" x="182.88" y="83.82" smashed="yes">
 <attribute name="VALUE" x="182.88" y="86.614" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
 </instance>
-<instance part="TP3" gate="G$1" x="176.784" y="85.852" smashed="yes">
+<instance part="3.3V" gate="G$1" x="176.784" y="85.852" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" x="178.054" y="84.582" size="1.778" layer="97"/>
 </instance>
 <instance part="U$1" gate="G$1" x="236.22" y="142.24" smashed="yes">
@@ -9529,7 +9547,7 @@ Switches electronic signals</description>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="66.04" x2="114.3" y2="67.31" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="GND" gate="G$1" pin="TP"/>
 <wire x1="114.3" y1="67.31" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="67.31" x2="114.3" y2="67.31" width="0.1524" layer="91"/>
 <junction x="114.3" y="67.31"/>
@@ -9591,7 +9609,7 @@ Switches electronic signals</description>
 <wire x1="176.784" y1="78.74" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="78.74" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
 <junction x="182.88" y="78.74"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="3.3V" gate="G$1" pin="TP"/>
 <wire x1="176.784" y1="83.312" x2="176.784" y2="78.74" width="0.1524" layer="91"/>
 <junction x="176.784" y="78.74"/>
 </segment>
@@ -9669,7 +9687,7 @@ Switches electronic signals</description>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="76.2" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 <junction x="114.3" y="78.74"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="USB" gate="G$1" pin="TP"/>
 <wire x1="118.364" y1="83.312" x2="118.364" y2="78.74" width="0.1524" layer="91"/>
 <junction x="118.364" y="78.74"/>
 <pinref part="U4" gate="G$1" pin="VIN"/>
