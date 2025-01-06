@@ -12083,9 +12083,9 @@ Diode with low voltage drop</description>
 <attribute name="NAME" x="34.29" y="57.658" size="1.27" layer="95" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="38.1" y="47.752" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
 </instance>
-<instance part="J5" gate="G$1" x="172.72" y="53.34" smashed="yes">
-<attribute name="NAME" x="168.91" y="54.356" size="1.27" layer="95" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="172.72" y="45.212" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
+<instance part="J5" gate="G$1" x="166.878" y="53.34" smashed="yes">
+<attribute name="NAME" x="163.068" y="54.356" size="1.27" layer="95" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="166.878" y="45.212" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
 </instance>
 <instance part="U$6" gate="G$1" x="170.18" y="78.74" smashed="yes">
 <attribute name="VALUE" x="171.704" y="82.296" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
@@ -12391,34 +12391,6 @@ Diode with low voltage drop</description>
 <label x="236.22" y="53.34" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="PRB"/>
-<wire x1="45.72" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<pinref part="U$2" gate="G$1" pin="PRB_GND"/>
-<wire x1="45.72" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="PRB_GND"/>
-<wire x1="180.34" y1="48.26" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="PRB"/>
-<wire x1="180.34" y1="53.34" x2="185.42" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PDIS_EN" class="0">
 <segment>
 <pinref part="Q1" gate="NMOS" pin="G"/>
@@ -12428,6 +12400,38 @@ Diode with low voltage drop</description>
 <wire x1="68.58" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="137.16" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
 <junction x="68.58" y="132.08"/>
+</segment>
+</net>
+<net name="PRB1" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="PRB"/>
+<wire x1="45.72" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+<label x="48.26" y="55.88" size="1.27" layer="95" font="vector" ratio="20"/>
+</segment>
+</net>
+<net name="PRB1_GND" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="PRB_GND"/>
+<wire x1="45.72" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<label x="48.26" y="50.8" size="1.27" layer="95" font="vector" ratio="20"/>
+</segment>
+</net>
+<net name="PROBE2" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="PRB"/>
+<wire x1="174.498" y1="53.34" x2="185.42" y2="53.34" width="0.1524" layer="91"/>
+<label x="177.8" y="53.34" size="1.27" layer="95" font="vector" ratio="20"/>
+</segment>
+</net>
+<net name="PROBE2_GND" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<pinref part="U$3" gate="G$1" pin="PRB_GND"/>
+<wire x1="174.498" y1="48.26" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
+<label x="175.514" y="48.26" size="1.27" layer="95" font="vector" ratio="20"/>
 </segment>
 </net>
 </nets>
@@ -12524,7 +12528,7 @@ Diode with low voltage drop</description>
 <approved hash="208,4,38.1,132.08,GND,sup,,,,"/>
 <approved hash="208,4,17.78,139.7,GND,sup,,,,"/>
 <approved hash="208,4,81.28,124.46,GND,sup,,,,"/>
-<approved hash="113,3,33.655,126.639,J3,,,,,"/>
+<approved hash="113,3,33.655,126.67,J3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
