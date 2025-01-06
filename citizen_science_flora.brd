@@ -194,7 +194,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTBlYmM4" projecturn="a.cGVyc29uYWw6dWUyOTBlYmM4IzIwMjQwNTE5NzY3MjkwODMx" f3durn="urn:adsk.wipprod:dm.lineage:hKbjeZyhTQCGIgAsdv3kWg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="eaa05dbf-31ce-40a9-a6cf-c28e765d50ed" lastsyncedrevisionid="eaa05dbf-31ce-40a9-a6cf-c28e765d50ed" lastboardhashguid="2cc016ec-c287-fb01-aef3-a2e37659a8d4" lastpushedtime="2025-01-05T07:56:31Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTBlYmM4" projecturn="a.cGVyc29uYWw6dWUyOTBlYmM4IzIwMjQwNTE5NzY3MjkwODMx" f3durn="urn:adsk.wipprod:dm.lineage:hKbjeZyhTQCGIgAsdv3kWg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="5b8a528c-b45a-4ea4-8c99-216c39175609" lastsyncedrevisionid="5b8a528c-b45a-4ea4-8c99-216c39175609" lastboardhashguid="1f314a6d-59e9-339e-f35d-d5c104a4aea2" lastpushedtime="2025-01-06T07:51:02Z" linktopcb3d="true"/>
 <plain>
 <polygon width="0.1524" layer="30">
 <vertex x="0" y="12.7" curve="-180"/>
@@ -2246,10 +2246,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="CAP-16507" x="-62.5094" y="75.5904" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-32.0294" y="-3.8576" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141828/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="0.1uF" x="-26.67" y="22.86" smashed="yes">
-<attribute name="NAME" x="-27.051" y="21.136" size="1.016" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-16507" x="7.62" y="-57.15" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-26.67" y="22.298" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141828/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="0.1uF" x="-19.5326" y="26.0858" smashed="yes" rot="R240">
+<attribute name="NAME" x="-20.708125" y="24.255153125" size="1.016" layer="25" font="vector" ratio="20" rot="R240" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-16507" x="-105.968290625" y="36.3947875" size="1.778" layer="27" rot="R240" display="off"/>
+<attribute name="VALUE" x="-20.01930625" y="26.3668" size="0.6096" layer="27" font="vector" ratio="20" rot="R240" align="top-center"/>
 </element>
 <element name="C29" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141977/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="0.1uF" x="-30.0228" y="8.4582" smashed="yes" rot="R180">
 <attribute name="NAME" x="-31.8516" y="8.7344" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -3291,13 +3291,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-32.9946" y1="-10.8458" x2="-33.147" y2="-10.6934" width="0.254" layer="1"/>
 <via x="-33.147" y="-10.6934" extent="1-16" drill="0.381"/>
 <wire x1="-33.147" y1="-10.6934" x2="-33.147" y2="-9.9568" width="0.254" layer="15"/>
+<wire x1="-18.2118" y1="18.8538" x2="-14.1662" y2="18.8538" width="0.254" layer="1"/>
+<wire x1="-14.1662" y1="18.8538" x2="-13.97" y2="19.05" width="0.254" layer="1"/>
+<wire x1="-13.97" y1="19.05" x2="-14.4168" y2="19.05" width="0.254" layer="1"/>
+<wire x1="-14.4168" y1="19.05" x2="-14.6252" y2="18.8416" width="0.254" layer="1"/>
+<wire x1="-14.6252" y1="18.8416" x2="-12.4408" y2="18.8416" width="0.254" layer="1"/>
+<wire x1="-12.4408" y1="18.8416" x2="-12.0904" y2="18.4912" width="0.254" layer="1"/>
+<via x="-12.0904" y="18.4912" extent="1-16" drill="0.381"/>
+<wire x1="-12.0904" y1="18.4912" x2="-11.7348" y2="18.1356" width="0.254" layer="15"/>
+<wire x1="-11.7348" y1="18.1356" x2="-10.9728" y2="18.1356" width="0.254" layer="15"/>
+<wire x1="-19.2826" y1="26.5188125" x2="-21.69299375" y2="27.736053125" width="0.254" layer="1"/>
+<wire x1="-21.69299375" y1="27.736053125" x2="-26.8406" y2="30.335575" width="0.254" layer="1"/>
+<wire x1="-19.2826" y1="26.5188125" x2="-18.9992" y2="27.2542" width="0.254" layer="1"/>
+<via x="-18.9992" y="27.2542" extent="1-16" drill="0.381"/>
+<wire x1="-18.9992" y1="27.2542" x2="-19.2786" y2="26.5684" width="0.254" layer="15"/>
+<wire x1="0.975" y1="-15.45" x2="0.9652" y2="-13.5302" width="0.254" layer="1"/>
+<wire x1="0.9652" y1="-13.5302" x2="0.2286" y2="-13.5636" width="0.254" layer="1"/>
+<via x="0.2286" y="-13.5636" extent="1-16" drill="0.381"/>
+<wire x1="0.2286" y1="-13.5636" x2="-0.6858" y2="-13.5382" width="0.254" layer="15"/>
 <wire x1="37.3888" y1="8.5132" x2="38.608" y2="8.517" width="0" layer="19" extent="1-1"/>
 <wire x1="38.562" y1="6.789" x2="38.608" y2="8.517" width="0" layer="19" extent="1-1"/>
 <wire x1="29.1084" y1="-3.4756" x2="38.562" y2="6.789" width="0" layer="19" extent="1-1"/>
 <wire x1="19.1474" y1="-14.8844" x2="27.9146" y2="-3.2766" width="0" layer="19" extent="1-1"/>
 <wire x1="12.5222" y1="-13.5574" x2="19.1474" y2="-14.8844" width="0" layer="19" extent="1-1"/>
 <wire x1="0.975" y1="-15.45" x2="11.0156" y2="-14.8844" width="0" layer="19" extent="1-1"/>
-<wire x1="0.9652" y1="-13.5302" x2="0.975" y2="-15.45" width="0" layer="19" extent="1-1"/>
 <wire x1="21.5688" y1="11.9634" x2="27.94" y2="-2.54" width="0" layer="19" extent="1-15"/>
 <wire x1="19.9492" y1="13.1422" x2="21.5688" y2="11.9634" width="0" layer="19" extent="1-1"/>
 <wire x1="18.9992" y1="10.6322" x2="19.9492" y2="13.1422" width="0" layer="19" extent="1-1"/>
@@ -3315,10 +3332,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.3114" y1="29.7646" x2="6.711" y2="28.6138" width="0" layer="19" extent="1-1"/>
 <wire x1="0.4614" y1="26.8224" x2="2.3114" y2="29.7646" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.3406" y1="23.6912" x2="0.4614" y2="26.8224" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.6252" y1="18.8416" x2="-7.3406" y2="23.6912" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.2118" y1="18.8538" x2="-14.6252" y2="18.8416" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.17" y1="22.86" x2="-18.2118" y2="18.8538" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.8406" y1="30.335575" x2="-27.17" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.9728" y1="18.1356" x2="-7.3406" y2="23.6912" width="0" layer="19" extent="1-15"/>
+<wire x1="-19.2826" y1="26.5188125" x2="-18.2118" y2="18.8538" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.3406" y1="8.476" x2="-18.2118" y2="18.8538" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.258" y1="5.2324" x2="-30.48" y2="7.62" width="0" layer="19" extent="15-15"/>
 <wire x1="-29.942" y1="0.295" x2="-32.202" y2="3.205" width="0" layer="19" extent="1-1"/>
@@ -3974,6 +3989,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="22.4536" y1="26.2704" x2="22.413" y2="26.311" width="0.2032" layer="1"/>
 <wire x1="20.513" y1="25.4864" x2="20.8788" y2="25.1206" width="0.2032" layer="1"/>
 <wire x1="20.8788" y1="25.1206" x2="22.1742" y2="25.1206" width="0.2032" layer="1"/>
+<wire x1="-2.275" y1="-15.45" x2="-2.3702" y2="-13.6398" width="0.254" layer="1"/>
+<wire x1="-2.3702" y1="-13.6398" x2="-2.3702" y2="-12.7" width="0.254" layer="1"/>
 <wire x1="23.7062" y1="26.3906" x2="24.3078" y2="27.7114" width="0" layer="19" extent="1-1"/>
 <wire x1="19.9492" y1="10.6322" x2="20.513" y2="26.311" width="0" layer="19" extent="1-1"/>
 <wire x1="21.5434" y1="10.541" x2="19.9492" y2="10.6322" width="0" layer="19" extent="1-1"/>
@@ -3982,8 +3999,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6.3204" y1="-12.9794" x2="18.6436" y2="-10.6002" width="0" layer="19" extent="1-1"/>
 <wire x1="6.0452" y1="-10.6002" x2="6.3204" y2="-12.9794" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.3702" y1="-12.7" x2="6.0452" y2="-10.6002" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.3702" y1="-13.6398" x2="-2.3702" y2="-12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.275" y1="-15.45" x2="-2.3702" y2="-13.6398" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.7286" y1="-17.145" x2="-2.275" y2="-15.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-6.278" y1="-13.1064" x2="-2.3702" y2="-12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-6.6294" y1="-10.6002" x2="-6.278" y2="-13.1064" width="0" layer="19" extent="1-1"/>
