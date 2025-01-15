@@ -12496,6 +12496,7 @@ Diode with low voltage drop</description>
 <approved hash="208,1,83.82,10.16,GND,sup,,,,"/>
 <approved hash="208,1,71.12,45.72,GND,sup,,,,"/>
 <approved hash="208,1,182.88,137.16,GND,sup,,,,"/>
+<approved hash="208,1,172.72,76.2,GND,sup,,,,"/>
 <approved hash="208,2,73.66,116.84,GND,sup,,,,"/>
 <approved hash="208,2,93.98,152.4,GND,sup,,,,"/>
 <approved hash="208,2,68.58,7.62,GND,sup,,,,"/>
