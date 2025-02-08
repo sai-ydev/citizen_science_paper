@@ -216,8 +216,8 @@
 <text x="28.9052" y="7.2898" size="1.016" layer="25" font="vector" ratio="20" rot="SR270">Wi-Fi/BLE</text>
 <text x="-18.5166" y="30.5562" size="1.016" layer="25" font="vector" ratio="20" rot="R240">MicroSD card</text>
 <text x="3.2004" y="13.7922" size="1.016" layer="25" font="vector" ratio="20" rot="SR0">RP2350A</text>
-<text x="-27.4574" y="19.5834" size="1.016" layer="25" font="vector" ratio="20">Purple Daisy</text>
-<text x="-3.3782" y="13.7414" size="1.016" layer="26" font="vector" ratio="20" rot="MR0">Purple Daisy STEAM platform</text>
+<text x="-27.4574" y="19.5834" size="1.016" layer="25" font="vector" ratio="20">Blue Daisy</text>
+<text x="-3.3782" y="13.7414" size="1.016" layer="26" font="vector" ratio="20" rot="MR0">Blue Daisy STEAM platform</text>
 <text x="-28.0162" y="18.1356" size="1.016" layer="25" font="vector" ratio="20"> STEAM</text>
 <text x="-26.8224" y="16.9164" size="1.016" layer="25" font="vector" ratio="20">Platform</text>
 <text x="-13.335" y="26.8732" size="1.016" layer="25" font="vector" ratio="20">RTC</text>
