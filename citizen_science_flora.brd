@@ -695,50 +695,6 @@ CONN_04
 </package>
 </packages>
 </library>
-<library name="SparkFun-Coils" urn="urn:adsk.eagle:library:512">
-<description>&lt;h3&gt;SparkFun Coils&lt;/h3&gt;
-In this library you'll find magnetics.
-
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;Inductors&lt;/li&gt;
-&lt;li&gt;Ferrite Beads&lt;/li&gt;
-&lt;li&gt;Transformers&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;br&gt;
-&lt;p&gt;We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.&lt;/p&gt;</description>
-<packages>
-<package name="0805" urn="urn:adsk.eagle:footprint:37561/2" library_version="2">
-<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="0805" urn="urn:adsk.eagle:package:37579/2" type="box" library_version="2">
-<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="0805"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="LQW18AN2N2D10D">
 <packages>
 <package name="INDC1608X100N">
@@ -1956,6 +1912,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="LQH2MCN120K02L">
+<packages>
+<package name="IND_LQH2MCN120K02L">
+<text x="-3.12" y="1.71" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.34" y="-1.31" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="1.05" x2="1.55" y2="1.05" width="0.05" layer="39"/>
+<wire x1="1.55" y1="1.05" x2="1.55" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="1.55" y1="-1.05" x2="-1.55" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="-1.05" x2="-1.55" y2="1.05" width="0.05" layer="39"/>
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.127" layer="21"/>
+<smd name="1" x="-1" y="0" dx="1" dy="1.6" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="1.6" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2156,15 +2132,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="CAP-14240" x="76.327" y="-54.229" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.177" y="21.409" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C11" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141773/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="4.7uF" x="15.7988" y="25.0952" smashed="yes">
-<attribute name="NAME" x="17.6276" y="25.0222" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14240" x="76.7588" y="-51.1048" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="15.7988" y="24.5332" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C11" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141773/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="4.7uF" x="15.367" y="25.146" smashed="yes">
+<attribute name="PROD_ID" value="CAP-14240" x="76.327" y="-51.054" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="15.367" y="24.584" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141772/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="4.7uF" x="15.7734" y="24.1046" smashed="yes">
-<attribute name="NAME" x="17.4752" y="23.8792" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14240" x="80.5434" y="-52.0954" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="15.7734" y="23.5426" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141772/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="4.7uF" x="15.9258" y="24.1808" smashed="yes">
+<attribute name="PROD_ID" value="CAP-14240" x="80.6958" y="-52.0192" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="15.9258" y="23.6188" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C13" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141774/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="0.1uF" x="19.2532" y="17.7292" smashed="yes">
 <attribute name="NAME" x="21.0058" y="17.4784" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -2212,7 +2186,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="39.17" y="9.017" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="C21" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46143239/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="0.1uF" x="17.5768" y="29.2354" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.6276" y="27.8892" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14993" x="89.9668" y="44.4754" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.3388" y="29.2354" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
@@ -2417,11 +2390,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3995265&amp;manufacturer=Wurth Electronics&amp;part_name=60312202114511&amp;search_term=60312202114511" x="89.9668" y="-49.7078" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/60312202114511/Wurth+Electronics+Inc./view-part/?ref=snap" x="89.9668" y="-49.7078" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.7368" y="-37.2378" size="1.27" layer="27"/>
-</element>
-<element name="L1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" package="0805" package3d_urn="urn:adsk.eagle:package:37579/2" override_package3d_urn="urn:adsk.eagle:package:46143259/2" override_package_urn="urn:adsk.eagle:footprint:37561/2" value="3.3µH" x="16.256" y="26.4668" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.1384" y="27.9908" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="NDUC-13076" x="-54.864" y="92.5068" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="16.256" y="27.3558" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="L2" library="LQW18AN2N2D10D" package="INDC1608X100N" override_package3d_urn="urn:adsk.eagle:package:46143250/2" override_package_urn="urn:adsk.eagle:footprint:46143251/1" value="LQW18AN2N2D10D" x="20.1422" y="28.6512" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="39.1922" y="-47.5488" size="1.778" layer="27" display="off"/>
@@ -2835,6 +2803,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="CAP-14993" x="-18.7452" y="-13.2588" size="1.016" layer="27" font="vector" ratio="20" display="off"/>
 <attribute name="VALUE" x="-18.7452" y="-14.0208" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
+<element name="L4" library="LQH2MCN120K02L" package="IND_LQH2MCN120K02L" value="3.3uH" x="16.002" y="26.7462" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="In Stock" x="16.002" y="26.7462" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/LQH2MCN120K02L/Murata/view-part/?ref=eda" x="16.002" y="26.7462" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="                                                      Inductor with Inductance: 12uH Tol. +/-10%, Package: 0806 (2016)                                              " x="16.002" y="26.7462" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Murata" x="16.002" y="26.7462" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="LQH2MCN120K02L" x="16.002" y="26.7462" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="NONSTANDARD " x="16.002" y="26.7462" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="16.002" y="26.7462" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LQH2MCN120K02L/Murata/view-part/?ref=snap" x="16.002" y="26.7462" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="19.342" y="28.0562" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3050,14 +3029,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.384" y1="22.8284" x2="4.134" y2="22.8284" width="0.254" layer="1"/>
 <wire x1="4.134" y1="22.8284" x2="5.334" y2="24.0284" width="0.254" layer="1"/>
 <via x="18.7198" y="29.972" extent="1-16" drill="0.381"/>
-<via x="17.1958" y="24.7396" extent="1-16" drill="0.254"/>
 <via x="10.3632" y="18.3134" extent="1-16" drill="0.254"/>
-<wire x1="15.1" y1="22.4865" x2="15.1238" y2="22.5103" width="0.1524" layer="1"/>
-<wire x1="15.1238" y1="22.5103" x2="15.1238" y2="23.014975" width="0.1524" layer="1"/>
-<wire x1="15.1238" y1="23.014975" x2="15.309025" y2="23.2002" width="0.1524" layer="1"/>
-<wire x1="15.309025" y1="23.2002" x2="15.690975" y2="23.2002" width="0.1524" layer="1"/>
-<wire x1="15.878775" y1="23.0124" x2="16.0782" y2="23.0124" width="0.1524" layer="1"/>
-<wire x1="15.690975" y1="23.2002" x2="15.878775" y2="23.0124" width="0.1524" layer="1"/>
 <via x="0.5334" y="21.6408" extent="1-16" drill="0.254"/>
 <via x="-1.5748" y="18.288" extent="1-16" drill="0.254"/>
 <via x="-3.4798" y="22.5044" extent="1-16" drill="0.254"/>
@@ -3068,6 +3040,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-32.202" y1="1.595" x2="-31.877" y2="1.27" width="0.1524" layer="1"/>
 <via x="-28.4734" y="-1.397" extent="1-16" drill="0.254"/>
 <via x="-38.6334" y="-7.747" extent="1-16" drill="0.254"/>
+<via x="17.526" y="23.2156" extent="1-16" drill="0.2032"/>
+<wire x1="17.2212" y1="22.9108" x2="17.526" y2="23.2156" width="0.1524" layer="1"/>
+<wire x1="16.3068" y1="22.9108" x2="17.2212" y2="22.9108" width="0.1524" layer="1"/>
+<wire x1="15.1" y1="22.4865" x2="15.1238" y2="22.5103" width="0.1524" layer="1"/>
+<wire x1="15.980375" y1="22.9108" x2="16.3068" y2="22.9108" width="0.1524" layer="1"/>
+<wire x1="15.1238" y1="23.014975" x2="15.309025" y2="23.2002" width="0.1524" layer="1"/>
+<wire x1="15.309025" y1="23.2002" x2="15.690975" y2="23.2002" width="0.1524" layer="1"/>
+<wire x1="15.1238" y1="22.5103" x2="15.1238" y2="23.014975" width="0.1524" layer="1"/>
+<wire x1="15.690975" y1="23.2002" x2="15.980375" y2="22.9108" width="0.1524" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="1"/>
@@ -3136,9 +3117,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="LS1" pad="P"/>
 <contactref element="D1" pad="C"/>
 <contactref element="D2" pad="A"/>
-<wire x1="14.3" y1="22.4865" x2="14.3" y2="23.825" width="0.1524" layer="1"/>
-<wire x1="14.5796" y1="24.1046" x2="15.2734" y2="24.1046" width="0.2032" layer="1"/>
-<wire x1="14.5796" y1="24.1046" x2="14.3" y2="23.825" width="0.2032" layer="1"/>
 <wire x1="12.3" y1="22.4865" x2="12.3" y2="23.9966" width="0.1524" layer="1"/>
 <wire x1="10.922" y1="24.6634" x2="10.922" y2="25.3572" width="0.2032" layer="1"/>
 <wire x1="10.922" y1="25.3572" x2="10.9474" y2="25.3826" width="0.2032" layer="1"/>
@@ -3153,8 +3131,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="22.487" y1="23.907" x2="22.413" y2="23.981" width="0.2032" layer="1"/>
 <wire x1="22.413" y1="23.981" x2="25.6828" y2="23.981" width="0.2032" layer="1"/>
 <wire x1="25.6828" y1="23.981" x2="25.7302" y2="24.0284" width="0.2032" layer="1"/>
-<wire x1="14.3" y1="23.825" x2="14.5507" y2="23.825" width="0.2032" layer="1"/>
-<via x="14.5507" y="23.825" extent="1-16" drill="0.254"/>
 <wire x1="22.1742" y1="20.7772" x2="22.5044" y2="21.1074" width="0.254" layer="1"/>
 <wire x1="22.5044" y1="21.1074" x2="22.5044" y2="22.4362" width="0.254" layer="1"/>
 <wire x1="22.5044" y1="22.4362" x2="22.487" y2="22.4536" width="0.254" layer="1"/>
@@ -3205,8 +3181,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="9.2573" y1="17.8562" x2="9.2635" y2="17.85" width="0.1524" layer="1"/>
 <wire x1="6.9262" y1="17.8562" x2="7.62" y2="17.8562" width="0.1524" layer="1"/>
 <wire x1="7.62" y1="17.8562" x2="9.2573" y2="17.8562" width="0.1524" layer="1"/>
-<wire x1="14.5507" y1="23.825" x2="14.6017" y2="23.876" width="0.1524" layer="15"/>
-<wire x1="14.6017" y1="23.876" x2="15.2908" y2="23.876" width="0.1524" layer="15"/>
 <wire x1="29.1084" y1="-3.4756" x2="28.1136" y2="-3.4756" width="0.254" layer="1"/>
 <wire x1="28.1136" y1="-3.4756" x2="27.9146" y2="-3.2766" width="0.254" layer="1"/>
 <via x="27.9146" y="-3.2766" extent="1-16" drill="0.381"/>
@@ -3423,6 +3397,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.4836" y1="26.0096" x2="8.4836" y2="26.5176" width="0.1524" layer="15"/>
 <wire x1="8.4836" y1="26.5176" x2="8.5598" y2="26.5938" width="0.1524" layer="15"/>
 <wire x1="9.2635" y1="21.85" x2="9.2635" y2="21.8516" width="0.1524" layer="1"/>
+<wire x1="14.3" y1="22.4865" x2="14.3" y2="23.4948" width="0.1524" layer="1"/>
+<wire x1="14.3" y1="23.4948" x2="14.478" y2="23.6728" width="0.1524" layer="1"/>
+<via x="14.478" y="23.6728" extent="1-16" drill="0.2032"/>
+<wire x1="15.4258" y1="24.1808" x2="14.986" y2="24.1808" width="0.1524" layer="1"/>
+<wire x1="14.986" y1="24.1808" x2="14.478" y2="23.6728" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C10" pad="1"/>
@@ -3436,20 +3415,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </signal>
 <signal name="N$2">
 <contactref element="U1" pad="48"/>
-<contactref element="L1" pad="1"/>
-<wire x1="14.7" y1="22.4865" x2="14.7" y2="23.05406875" width="0.1524" layer="1"/>
-<wire x1="18.1356" y1="23.4442" x2="18.3642" y2="23.6728" width="0.1524" layer="1"/>
-<wire x1="18.3642" y1="23.6728" x2="18.3642" y2="26.1874" width="0.1524" layer="1"/>
-<wire x1="18.3642" y1="26.1874" x2="18.0848" y2="26.4668" width="0.1524" layer="1"/>
-<wire x1="18.0848" y1="26.4668" x2="17.156" y2="26.4668" width="0.1524" layer="1"/>
-<wire x1="15.8067125" y1="23.4796" x2="15.8421125" y2="23.4442" width="0.1524" layer="1"/>
-<wire x1="15.8421125" y1="23.4442" x2="18.1356" y2="23.4442" width="0.1524" layer="1"/>
-<wire x1="14.7" y1="23.05406875" x2="15.12553125" y2="23.4796" width="0.1524" layer="1"/>
-<wire x1="15.12553125" y1="23.4796" x2="15.8067125" y2="23.4796" width="0.1524" layer="1"/>
+<contactref element="L4" pad="1"/>
+<wire x1="14.7" y1="22.4865" x2="14.7238" y2="22.5103" width="0.1524" layer="1"/>
+<wire x1="14.7238" y1="22.5103" x2="14.7238" y2="23.014975" width="0.1524" layer="1"/>
+<wire x1="15.8067125" y1="23.4796" x2="15.8167125" y2="23.4696" width="0.1524" layer="1"/>
+<wire x1="14.7238" y1="23.014975" x2="15.188425" y2="23.4796" width="0.1524" layer="1"/>
+<wire x1="15.188425" y1="23.4796" x2="15.8067125" y2="23.4796" width="0.1524" layer="1"/>
+<wire x1="16.9418" y1="23.4696" x2="17.6022" y2="24.13" width="0.1524" layer="1"/>
+<wire x1="15.8167125" y1="23.4696" x2="16.9418" y2="23.4696" width="0.1524" layer="1"/>
+<wire x1="17.6022" y1="24.13" x2="17.6022" y2="26.146" width="0.3048" layer="1"/>
+<wire x1="17.6022" y1="26.146" x2="17.002" y2="26.7462" width="0.3048" layer="1"/>
 </signal>
 <signal name="1.1V">
 <contactref element="U1" pad="50"/>
-<contactref element="L1" pad="2"/>
 <contactref element="C11" pad="1"/>
 <contactref element="U1" pad="6"/>
 <contactref element="U1" pad="23"/>
@@ -3457,11 +3435,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="C13" pad="1"/>
 <contactref element="C14" pad="1"/>
 <contactref element="C15" pad="1"/>
-<wire x1="15.2988" y1="25.0952" x2="15.2988" y2="26.4096" width="0.2032" layer="1"/>
-<wire x1="15.2988" y1="26.4096" x2="15.356" y2="26.4668" width="0.2032" layer="1"/>
-<wire x1="13.9" y1="22.4865" x2="13.9" y2="24.2378" width="0.1524" layer="1"/>
-<wire x1="14.7574" y1="25.0952" x2="15.2988" y2="25.0952" width="0.2032" layer="1"/>
-<wire x1="13.9" y1="24.2378" x2="14.7574" y2="25.0952" width="0.2032" layer="1"/>
 <wire x1="13.4507375" y1="13.7668" x2="13.3237375" y2="13.8938" width="0.1524" layer="1"/>
 <wire x1="13.081" y1="13.8938" x2="12.6746" y2="14.3002" width="0.1524" layer="1"/>
 <wire x1="13.3237375" y1="13.8938" x2="13.081" y2="13.8938" width="0.1524" layer="1"/>
@@ -3517,11 +3490,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="16.5164" y1="19.4564" x2="17.2607375" y2="19.4564" width="0.1524" layer="1"/>
 <wire x1="17.0688" y1="19.4564" x2="17.0624" y2="19.45" width="0.1524" layer="1"/>
 <wire x1="17.0624" y1="19.45" x2="16.1365" y2="19.45" width="0.1524" layer="1"/>
-<wire x1="17.479084375" y1="20.138315625" x2="18.5166" y2="21.17583125" width="0.1524" layer="15"/>
+<wire x1="17.4468" y1="20.10603125" x2="18.5166" y2="21.17583125" width="0.1524" layer="15"/>
 <wire x1="18.5166" y1="21.17583125" x2="18.5166" y2="24.7904" width="0.1524" layer="15"/>
 <wire x1="17.0688" y1="19.4564" x2="17.4468" y2="19.8344" width="0.1524" layer="15"/>
 <wire x1="17.4468" y1="19.8344" x2="17.4468" y2="20.10603125" width="0.1524" layer="15"/>
-<wire x1="17.4468" y1="20.10603125" x2="17.479084375" y2="20.138315625" width="0.1524" layer="15"/>
+<contactref element="L4" pad="2"/>
+<wire x1="15.0274" y1="26.7716" x2="15.002" y2="26.7462" width="0.254" layer="1"/>
+<wire x1="14.867" y1="26.6112" x2="15.002" y2="26.7462" width="0.254" layer="1"/>
+<wire x1="14.24529375" y1="24.2346" x2="14.2778" y2="24.2346" width="0.1524" layer="1"/>
+<wire x1="13.9" y1="22.4865" x2="13.9" y2="23.88930625" width="0.1524" layer="1"/>
+<wire x1="13.9" y1="23.88930625" x2="14.24529375" y2="24.2346" width="0.1524" layer="1"/>
+<wire x1="14.867" y1="24.8238" x2="14.867" y2="25.146" width="0.1524" layer="1"/>
+<wire x1="14.2778" y1="24.2346" x2="14.867" y2="24.8238" width="0.1524" layer="1"/>
+<wire x1="15.002" y1="26.7462" x2="15.002" y2="25.281" width="0.254" layer="1"/>
+<wire x1="15.002" y1="25.281" x2="14.867" y2="25.146" width="0.254" layer="1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="U1" pad="24"/>
@@ -5427,13 +5409,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <errors>
 <approved hash="4,1,927c2d86f780c323"/>
 <approved hash="4,1,acd0b3229eba64fc"/>
-<approved hash="23,1,547e7e007e32544c"/>
-<approved hash="23,1,6a03d15bbb3b3dbb"/>
 <approved hash="23,1,10ca52822ab152a3"/>
-<approved hash="23,1,711b0cfb13876e67"/>
 <approved hash="23,1,325bf2200c1013a0"/>
 <approved hash="23,1,9c8e1b7e1b229cd2"/>
-<approved hash="23,1,dc094c7e19e1eef5"/>
 <approved hash="23,1,ae035f835fc7ae47"/>
 <approved hash="23,1,b29774b75f18d8e7"/>
 <approved hash="23,1,08f41880b580e6c7"/>
@@ -5446,45 +5424,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="23,2,cdba09ca0941cd31"/>
 <approved hash="23,2,759ddb6ddb5d75ad"/>
 <approved hash="23,2,1f981c1c49afe9e8"/>
-<approved hash="23,15,e12fe0efe086e146"/>
-<approved hash="23,15,2f1668c05bf7dae5"/>
-<approved hash="23,15,5de5031b1d71438f"/>
-<approved hash="23,15,f059d429d4e6f096"/>
-<approved hash="23,15,7e872ef7ae809863"/>
-<approved hash="23,15,c8f8f802cc05d4ff"/>
-<approved hash="23,15,92f6b6fe3ca99cd2"/>
-<approved hash="23,15,802b0fb9fe8af5e5"/>
-<approved hash="23,15,b10cb088d4f9527f"/>
-<approved hash="23,15,03630d46bd02bb23"/>
-<approved hash="23,15,f227192c157bfe18"/>
-<approved hash="23,15,5c3b18c51b64529c"/>
-<approved hash="23,15,7962031c037c7902"/>
-<approved hash="23,15,335c73c051b0cea3"/>
-<approved hash="23,15,7147104b05f57883"/>
-<approved hash="23,15,ec7c340236e2ee9c"/>
-<approved hash="23,15,7001c7ceaef0fe7f"/>
-<approved hash="23,15,dc3d93c38cd0c32e"/>
-<approved hash="23,15,66640e1612226258"/>
-<approved hash="23,15,0789254925e60726"/>
-<approved hash="23,15,e2ab9cd95d0c9cee"/>
-<approved hash="23,15,f28c0f3c0ff1f241"/>
-<approved hash="23,15,1462b61f7524db92"/>
-<approved hash="23,15,467cfaeb392ac77e"/>
-<approved hash="23,15,d9babcfabcfdd9bd"/>
-<approved hash="23,15,1d0902f4c3a45d85"/>
-<approved hash="23,15,ecadaf216f26eeef"/>
-<approved hash="23,15,136dc293c2a2135c"/>
-<approved hash="23,15,dd0513fb1364dd9a"/>
-<approved hash="23,15,a0a4e3032c01af64"/>
-<approved hash="23,15,e7a187e18484e4c4"/>
-<approved hash="23,15,3e6b7aab7b4b3f8b"/>
-<approved hash="23,15,9f03d8c3d8c29f02"/>
-<approved hash="23,15,94a4995a99d99427"/>
-<approved hash="23,15,0fed0800b8a20753"/>
-<approved hash="23,15,1846114ab0d48deb"/>
 <approved hash="23,1,18d419f1fae1fb14"/>
-<approved hash="23,15,9693959c051147a2"/>
 <approved hash="23,16,0d65f395f3a00d50"/>
+<approved hash="23,1,6a03d15bbb3b3dbb"/>
+<approved hash="23,15,802b0fb9fe8af5e5"/>
+<approved hash="23,1,8161f15df2257d75"/>
+<approved hash="23,1,3ce70019006f2050"/>
 </errors>
 </board>
 </drawing>
