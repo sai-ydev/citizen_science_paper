@@ -9936,7 +9936,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C17" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46143257/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" override_locally_modified="yes" value="0.1uF"/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141752/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value=" "/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141752/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="DNF"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141638/3" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="1K"/>
 <part name="!BOOT" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1" override_package3d_urn="urn:adsk.eagle:package:46141635/2" override_package_urn="urn:adsk.eagle:footprint:40113/2" override_locally_modified="yes"/>
@@ -10212,7 +10212,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="5.08" y="3.302" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
 <instance part="R16" gate="G$1" x="31.496" y="19.812" smashed="yes">
-<attribute name="NAME" x="36.068" y="21.59" size="1.27" layer="95" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="31.496" y="21.336" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="31.496" y="18.288" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R17" gate="G$1" x="31.496" y="37.592" smashed="yes">
 <attribute name="NAME" x="31.496" y="39.116" size="1.778" layer="95" font="vector" align="bottom-center"/>
