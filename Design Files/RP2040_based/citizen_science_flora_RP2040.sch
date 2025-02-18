@@ -10043,7 +10043,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC-ISO" device=""/>
 <part name="C41" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46141825/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" override_locally_modified="yes" value="0.1uF"/>
 <part name="GND-ISO8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
-<part name="Q1" library="BSS138" deviceset="BSS138" device="" override_package3d_urn="urn:adsk.eagle:package:46141963/3" override_package_urn="urn:adsk.eagle:footprint:38398/2" override_locally_modified="yes" value="BSS138"/>
+<part name="Q1" library="BSS138" deviceset="BSS138" device="" override_package3d_urn="urn:adsk.eagle:package:46141963/5" override_package_urn="urn:adsk.eagle:footprint:46980450/1" value="BSS138"/>
 <part name="GND34" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R23" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-0402-1/16W-5%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141961/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="1M"/>
 <part name="R24" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-0402-1/16W-5%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141962/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="1M"/>
@@ -10067,7 +10067,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C45" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46142980/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="0.1uF"/>
 <part name="GND40" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="Q2" library="BSS138" deviceset="BSS138" device="" override_package3d_urn="urn:adsk.eagle:package:46148389/2" override_package_urn="urn:adsk.eagle:footprint:38424/2" override_locally_modified="yes" value="BSS138"/>
+<part name="Q2" library="BSS138" deviceset="BSS138" device="" override_package3d_urn="urn:adsk.eagle:package:46148389/5" override_package_urn="urn:adsk.eagle:footprint:46980446/1" value="BSS138"/>
 <part name="LS1" library="CMT-8504-100-SMT-TR" deviceset="CMT-8504-100-SMT-TR" device="" override_package3d_urn="urn:adsk.eagle:package:46148376/2" override_package_urn="urn:adsk.eagle:footprint:46148377/1" value="MLT-8530"/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND42" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
