@@ -3049,6 +3049,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-38.6334" y1="-7.747" x2="-39.5224" y2="-6.858" width="0.254" layer="1"/>
 <wire x1="-39.5224" y1="-6.858" x2="-39.5224" y2="-5.92" width="0.254" layer="1"/>
 <via x="-4.4196" y="-14.605" extent="1-16" drill="0.254"/>
+<via x="-28.4988" y="22.4282" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="1"/>
@@ -3821,7 +3822,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4.2018" y1="28.6046" x2="4.211" y2="28.6138" width="0.254" layer="1"/>
 <wire x1="9.2635" y1="21.45" x2="9.8174" y2="21.45" width="0.1524" layer="1"/>
 <wire x1="4.2672" y1="21.9456" x2="4.2672" y2="29.4132" width="0.2032" layer="2"/>
-<via x="4.2672" y="29.4132" extent="1-16" drill="0.381"/>
+<via x="4.2672" y="29.4132" extent="1-16" drill="0.2032"/>
 <wire x1="4.3942" y1="21.8186" x2="4.2672" y2="21.9456" width="0.2032" layer="2"/>
 <wire x1="4.211" y1="28.6138" x2="4.5854" y2="28.6138" width="0.2032" layer="1"/>
 <wire x1="4.826" y1="28.8544" x2="4.826" y2="29.0322" width="0.2032" layer="1"/>
@@ -5483,44 +5484,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="23,1,cba1e221e271cbf1"/>
 <approved hash="23,1,52f8548854ca52ba"/>
 <approved hash="23,1,df400d471ae32484"/>
-<approved hash="23,1,edec35127f623aac"/>
 <approved hash="23,16,fc81bdc5c8a58937"/>
 <approved hash="23,1,18d419f1fae1fb14"/>
 <approved hash="23,1,46cce00ce0434683"/>
 <approved hash="23,1,63c19c21bc61bb47"/>
-<approved hash="23,1,f9d8d428d4e4f914"/>
-<approved hash="23,1,0e740000bc00fe47"/>
 <approved hash="23,1,10e480c7e2f7e127"/>
-<approved hash="23,1,547e7e007e32544c"/>
-<approved hash="23,1,38ea5cefdabfb92a"/>
-<approved hash="23,1,41c1682177555eb5"/>
-<approved hash="23,1,704c12f2d0619253"/>
-<approved hash="23,1,2c345a6af3dffe4e"/>
-<approved hash="23,1,2b651aa51bf92a39"/>
-<approved hash="23,1,5cc2c243fee14c0c"/>
-<approved hash="23,1,b486f6b6f6ebb4db"/>
 <approved hash="23,1,b71b2ade6d2d1b69"/>
-<approved hash="23,1,9bf4018a01859bfb"/>
 <approved hash="23,1,f225dcfcd78bea6f"/>
-<approved hash="23,1,205d55e2a1a85d7e"/>
-<approved hash="23,1,0d218ae52f473165"/>
 <approved hash="23,1,59016762852307fb"/>
 <approved hash="23,1,752109654cbb5f93"/>
 <approved hash="23,1,b15093a091fab30a"/>
-<approved hash="23,1,137713d41a95d3b6"/>
-<approved hash="23,15,5c3b18c51b64529c"/>
-<approved hash="23,15,0be20d920dce0bbe"/>
-<approved hash="23,15,1462b61f7524db92"/>
-<approved hash="23,15,d9babcfabcfdd9bd"/>
-<approved hash="23,15,f227192c157bfe18"/>
-<approved hash="23,15,dc3d93c38cd0c32e"/>
-<approved hash="23,15,c8f8f802cc05d4ff"/>
-<approved hash="23,15,9f03d8c3d8c29f02"/>
-<approved hash="23,15,ec7c340236e2ee9c"/>
-<approved hash="23,15,dd0513fb1364dd9a"/>
-<approved hash="23,15,2f1668c05bf7dae5"/>
-<approved hash="23,15,e7a187e18484e4c4"/>
-<approved hash="23,15,7001c7ceaef0fe7f"/>
+<approved hash="23,1,edec35127f623aac"/>
 </errors>
 </board>
 </drawing>
